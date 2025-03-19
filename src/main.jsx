@@ -12,7 +12,7 @@ createRoot(document.getElementById('root')).render(
   // <StrictMode>
   //   <App />
   // </StrictMode>,
-  <BrowserRouter>
+  <BrowserRouter basename="/nova-school/">
     <Routes>
       <Route path='/app' element={<App />} />
       <Route path='/' element={<Home />} />
