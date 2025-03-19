@@ -11,35 +11,35 @@ const data = [
     {
         title: "Smart Classroom",
         description: "Our classrooms are Spacious Fairy and equipped with digital modules",
-        image: "/assets/banner.webp",
+        image: "/nova-school/assets/banner.webp",
         subtext: "6 April, 2025",
         url: "/"
     },
     {
         title: "Smart Classroom",
         description: "Our classrooms are Spacious Fairy and equipped with digital modules",
-        image: "/assets/banner.webp",
+        image: "/nova-school/assets/banner.webp",
         subtext: "6 April, 2025",
         url: "/"
     },
     {
         title: "Smart Classroom",
         description: "Our classrooms are Spacious Fairy and equipped with digital modules",
-        image: "/assets/banner.webp",
+        image: "/nova-school/assets/banner.webp",
         subtext: "6 April, 2025",
         url: "/"
     },
     {
         title: "Smart Classroom",
         description: "Our classrooms are Spacious Fairy and equipped with digital modules",
-        image: "/assets/banner.webp",
+        image: "/nova-school/assets/banner.webp",
         subtext: "6 April, 2025",
         url: "/"
     },
     {
         title: "Smart Classroom",
         description: "Our classrooms are Spacious Fairy and equipped with digital modules",
-        image: "/assets/banner.webp",
+        image: "/nova-school/assets/banner.webp",
         subtext: "6 April, 2025",
         url: "/"
     },

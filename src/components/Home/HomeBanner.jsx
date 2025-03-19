@@ -9,7 +9,7 @@ function HomeBanner() {
                     <div className='col-md-12'>
                         <Carousel fade>
                             <Carousel.Item>
-                                <img src={"/assets/banner-new.webp"} alt='banner' />
+                                <img src={"/nova-school/assets/banner-new.webp"} alt='banner' />
                                 <Carousel.Caption id='first'>
                                     <h3>Leading Educational Study Centre</h3>
                                     <p>Welcome To Nova Education, We Make Your Dream Come True</p>
@@ -26,7 +26,7 @@ function HomeBanner() {
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img src={"/assets/banner-new.webp"} alt='banner' />
+                                <img src={"/nova-school/assets/banner-new.webp"} alt='banner' />
                                 <Carousel.Caption>
                                     <h3>Leading Educational Study Centre</h3>
                                     <p>Welcome To Nova Education, We Make Your Dream Come True</p>
@@ -36,7 +36,7 @@ function HomeBanner() {
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img src={"/assets/banner-new.webp"} alt='banner' />
+                                <img src={"/nova-school/assets/banner-new.webp"} alt='banner' />
                                 <Carousel.Caption>
                                     <h3>Leading Educational Study Centre</h3>
                                     <p>Welcome To Nova Education, We Make Your Dream Come True</p>
