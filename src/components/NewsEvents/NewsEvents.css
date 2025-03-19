@@ -1,0 +1,135 @@
+.carousel-container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.swiper {
+    width: 100%;
+    padding-bottom: 40px;
+    /* Space for pagination */
+}
+
+.carousel-item.swiper-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    /* transition: transform 0.3s ease-in-out; */
+    border-bottom: 5px solid hsl(212.96deg 100% 13.92%);
+}
+
+/* .carousel-item.swiper-item:hover {
+    transform: scale(1.05);
+} */
+
+section.our-facility {
+    background-color: hsl(257.14deg 87.5% 96.86%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+img.carousel-image.swiper-img {
+    height: 155px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.carousel-content {
+    padding: 15px;
+}
+
+.carousel-button {
+    background-color: #002047;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.carousel-button:hover {
+    background-color: #3E52AF;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #002047 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #002047 !important;
+}
+
+h4.swiper-h4 {
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p.swiper-p {
+    text-align: left;
+    color: hsl(212.73deg 51.89% 41.57%);
+    margin-bottom: 10px;
+}
+
+a.swiper-a {
+    text-decoration: none;
+    color: hsl(352.8deg 51.02% 38.43%);
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+}
+
+span.subtext {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: hsl(352.8deg 51.02% 38.43%);
+    color: white;
+    font-size: 12px;
+    padding: 9px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+section.our-facility h2 {
+    background: linear-gradient(to right, #002047, #3E52AF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.swiper-button-prev {
+    background-color: #002047;
+    color: white !important;
+    padding: 36px;
+    border-radius: 50px;
+    left: 0;
+    z-index: 666666;
+    top: 45%;
+}
+
+.swiper-button-next {
+    background-color: #002047;
+    color: white !important;
+    padding: 36px;
+    border-radius: 50px;
+    right: 0;
+    z-index: 666666;
+    top: 45%;
+}

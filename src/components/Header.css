@@ -1,0 +1,51 @@
+section.header-section {
+    background-color: hsl(212.96deg 100% 13.92%);
+    padding: 20px 0px;
+    color: white;
+}
+
+.header-strip {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header-strip-div {
+    margin-right: 24px;
+}
+
+button.header-contact-button {
+    background-color: hsl(352.8deg 51.02% 38.43%);
+    color: white;
+    border: hsl(352.8deg 51.02% 38.43%);
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    position: relative;
+    bottom: 3px;
+    padding: 10px 30px;
+    margin: 0px 1px;
+}
+
+.header-contact-div {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light {
+    background-color: transparent !important;
+}
+
+.me-auto.navbar-nav {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.header-strip-div svg {
+    margin-right: 8px;
+    font-size: 25px;
+}
+
+.me-auto.navbar-nav a {
+    color: black;
+}

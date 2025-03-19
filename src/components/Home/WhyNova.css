@@ -1,0 +1,57 @@
+.why-nova-left img {
+    width: 90%;
+    /* margin: 83px 0px; */
+    margin-top: 75px;
+}
+
+section.why-nova-section h2 {
+    text-align: center;
+    background: linear-gradient(to right, #002047, #3E52AF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+section.why-nova-section {
+    margin: 60px 0px;
+    background-color: hsl(257.14deg 87.5% 96.86%);
+    padding: 49px 0px;
+}
+
+.why-nova-div-img svg {
+    font-size: 70px;
+}
+
+.why-nova-div {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #002047, #3E52AF);
+    color: white;
+    -webkit-text-fill-color: white;
+    border: none;
+    padding: 30px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    justify-content: start;
+    margin-bottom: 30px;
+    /* align-items: center; */
+}
+
+.why-nova-div-content {
+    margin-left: 25px;
+}
+
+.why-nova-div-content h4 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.why-nova-div-content p {
+    font-size: 13px;
+    font-weight: 300;
+}

@@ -1,0 +1,48 @@
+section.footer {
+    background-color: hsl(212.96deg 100% 13.92%);
+    color: white;
+    padding: 60px 0px;
+}
+
+ul.footer-ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+ul.footer-ul li {
+    padding: 10px 0px;
+}
+
+.footer-1 img{
+    width: 100%;
+}
+
+.footer-1-contact-div {
+    margin-bottom: 10px;
+}
+
+.footer-1-contact-div {
+    margin-bottom: 10px;
+}
+
+.icon-div {
+    border: 1px solid;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.footer-social-icons svg {
+    font-size: 45px;
+}
+
+.footer-social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.footer-copy-rights {
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,84 @@
+.tabs-container {
+    width: 90%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.react-tabs__tab-list {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    padding: 0;
+    margin: 0;
+}
+
+.react-tabs__tab {
+    list-style: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: none;
+    transition: 0.3s ease;
+}
+
+.react-tabs__tab--selected {
+    border-bottom: 3px solid #002047;
+    font-weight: bold;
+    color: #002047;
+}
+
+.react-tabs__tab:hover {
+    background: #f5f5f5;
+}
+
+.table-container {
+    overflow-x: auto;
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+h3.table-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #002047;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+section.faculty-list h2 {
+    text-align: left;
+    background: linear-gradient(to right, #002047, #3E52AF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+section.faculty-list{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
