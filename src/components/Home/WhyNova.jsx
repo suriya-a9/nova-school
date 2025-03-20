@@ -21,7 +21,7 @@ const WhyNova = () => {
                         <div className="why-nova-right">
                             <div className="why-nova-div">
                                 <div className="why-nova-div-img">
-                                    <GrBook />
+                                    <img src={'assets/Select.webp'} alt="img" />
                                 </div>
                                 <div className="why-nova-div-content">
                                     <h4>Select a course You Like <br />And Explore It!</h4>
@@ -30,7 +30,7 @@ const WhyNova = () => {
                             </div>
                             <div className="why-nova-div">
                                 <div className="why-nova-div-img">
-                                    <TbWorldWww />
+                                    <img src={'assets/Visit.webp'} alt="img" />
                                 </div>
                                 <div className="why-nova-div-content">
                                     <h4>Visit Nova To Know More <br />About It!</h4>
@@ -39,7 +39,7 @@ const WhyNova = () => {
                             </div>
                             <div className="why-nova-div">
                                 <div className="why-nova-div-img">
-                                    <FaUserGraduate />
+                                    <img src={'assets/Nova.webp'} alt="img" />
                                 </div>
                                 <div className="why-nova-div-content">
                                     <h4>Nova Brings Value Based<br />Education In Everyone</h4>

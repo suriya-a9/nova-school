@@ -78,7 +78,25 @@ section.faculty-list h2 {
     margin-bottom: 40px;
 }
 
-section.faculty-list{
+section.faculty-list {
     margin-top: 60px;
     margin-bottom: 60px;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+    .react-tabs__tab-list {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .react-tabs__tab {
+        flex: 0 0 auto;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
 }

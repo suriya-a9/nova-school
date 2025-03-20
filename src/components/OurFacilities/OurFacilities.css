@@ -36,7 +36,7 @@ section.our-facility {
 }
 
 img.carousel-image.swiper-img {
-    height: 155px;
+    height: 128px;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -74,14 +74,16 @@ img.carousel-image.swiper-img {
 
 h4.swiper-h4 {
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
+    height: 40px;
 }
 
 p.swiper-p {
     text-align: left;
     color: hsl(212.73deg 51.89% 41.57%);
     margin-bottom: 10px;
+    font-size: 15px;
 }
 
 a.swiper-a {

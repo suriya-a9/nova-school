@@ -97,6 +97,18 @@ section.home-about {
     margin: 40px 0px;
 }
 
+.vision-img img {
+    width: 100px;
+    object-fit: contain;
+    height: 100px;
+}
+
+.mission-img img {
+    width: 100px;
+    object-fit: contain;
+    height: 100px;
+}
+
 /* Media Queries */
 
 @media(max-width: 600px) {

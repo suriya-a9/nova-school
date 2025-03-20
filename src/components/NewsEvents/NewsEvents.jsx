@@ -9,28 +9,28 @@ import "./NewsEvents.css";
 
 const data = [
     {
-        title: "Smart Classroom",
+        title: "Nova Kindergarden Event",
         description: "Our classrooms are Spacious Fairy and equipped with digital modules",
         image: "/nova-school/assets/banner.webp",
         subtext: "6 April, 2025",
         url: "/"
     },
     {
-        title: "Smart Classroom",
+        title: "B.Ed / D.El.Ed",
         description: "Our classrooms are Spacious Fairy and equipped with digital modules",
         image: "/nova-school/assets/banner.webp",
         subtext: "6 April, 2025",
         url: "/"
     },
     {
-        title: "Smart Classroom",
+        title: "Nova Public School Event",
         description: "Our classrooms are Spacious Fairy and equipped with digital modules",
         image: "/nova-school/assets/banner.webp",
         subtext: "6 April, 2025",
         url: "/"
     },
     {
-        title: "Smart Classroom",
+        title: "Cricket Event",
         description: "Our classrooms are Spacious Fairy and equipped with digital modules",
         image: "/nova-school/assets/banner.webp",
         subtext: "6 April, 2025",

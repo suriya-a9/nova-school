@@ -1,9 +1,11 @@
 section.cta {
     position: relative;
     background-image: url('/banner.webp');
-    padding: 8% 0px;
     background-size: cover;
-    background-position: top;
+    background-position: center;
+    background-attachment: fixed;
+    /* Enables parallax effect */
+    padding: 8% 0;
     color: white;
 }
 
@@ -17,7 +19,6 @@ section.cta::before {
     height: 100%;
     background-color: hsl(204.64deg 59.57% 18.43%);
     opacity: 0.7;
-    /* Adjust transparency as needed */
     z-index: 1;
 }
 

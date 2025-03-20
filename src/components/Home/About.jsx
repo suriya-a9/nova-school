@@ -1,7 +1,5 @@
 import React from "react";
-import { FaEye } from "react-icons/fa";
 import "./About.css";
-import { FaDotCircle } from "react-icons/fa";
 
 const About = () => {
     return (
@@ -24,7 +22,7 @@ const About = () => {
                     <div className="col-md-6">
                         <div className="vision">
                             <div className="vision-img">
-                                <FaEye />
+                                <img src={'assets/Vision.webp'} alt="img" />
                             </div>
                             <div className="vision-content">
                                 <h4>Our Vision</h4>
@@ -36,7 +34,7 @@ const About = () => {
                     <div className="col-md-6">
                         <div className="mission">
                             <div className="mission-img">
-                                <FaDotCircle />
+                                <img src={'assets/Mission.webp'} alt="img" />
                             </div>
                             <div className="mission-content">
                                 <h4>Our Mission</h4>

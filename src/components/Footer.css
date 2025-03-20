@@ -47,6 +47,10 @@ ul.footer-ul li {
     text-align: center;
 }
 
+.footer-1-contact {
+    margin-top: 20px;
+}
+
 /* Media Queries */
 
 @media(max-width: 600px) {

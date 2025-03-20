@@ -7,6 +7,7 @@ import './index.css'
 import App from './App.jsx'
 import Home from './components/Home/Home.jsx'
 import Faculty from './components/Faculty/Faculty.jsx';
+import Cbse from './components/CBSE/Cbse.jsx';
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/app' element={<App />} />
       <Route path='/' element={<Home />} />
       <Route path='/faculty' element={<Faculty />} />
+      <Route path='/cbse' element={<Cbse />} />
     </Routes>
   </BrowserRouter>
 )

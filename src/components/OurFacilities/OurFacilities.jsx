@@ -16,28 +16,56 @@ const data = [
         url: "/"
     },
     {
-        title: "Smart Classroom",
+        title: "Scientific & Tech Lab",
         description: "Our classrooms are Spacious Fairy and equipped with digital modules",
         image: "/nova-school/assets/banner.webp",
         subtext: "6 April, 2025",
         url: "/"
     },
     {
-        title: "Smart Classroom",
+        title: "The Library",
         description: "Our classrooms are Spacious Fairy and equipped with digital modules",
         image: "/nova-school/assets/banner.webp",
         subtext: "6 April, 2025",
         url: "/"
     },
     {
-        title: "Smart Classroom",
+        title: "Music Room",
         description: "Our classrooms are Spacious Fairy and equipped with digital modules",
         image: "/nova-school/assets/banner.webp",
         subtext: "6 April, 2025",
         url: "/"
     },
     {
-        title: "Smart Classroom",
+        title: "Examination Centre",
+        description: "Our classrooms are Spacious Fairy and equipped with digital modules",
+        image: "/nova-school/assets/banner.webp",
+        subtext: "6 April, 2025",
+        url: "/"
+    },
+    {
+        title: "Food Court Facility",
+        description: "Our classrooms are Spacious Fairy and equipped with digital modules",
+        image: "/nova-school/assets/banner.webp",
+        subtext: "6 April, 2025",
+        url: "/"
+    },
+    {
+        title: "Transport Facility",
+        description: "Our classrooms are Spacious Fairy and equipped with digital modules",
+        image: "/nova-school/assets/banner.webp",
+        subtext: "6 April, 2025",
+        url: "/"
+    },
+    {
+        title: "Annual Events",
+        description: "Our classrooms are Spacious Fairy and equipped with digital modules",
+        image: "/nova-school/assets/banner.webp",
+        subtext: "6 April, 2025",
+        url: "/"
+    },
+    {
+        title: "Safety Measures",
         description: "Our classrooms are Spacious Fairy and equipped with digital modules",
         image: "/nova-school/assets/banner.webp",
         subtext: "6 April, 2025",

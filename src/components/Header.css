@@ -73,6 +73,25 @@ nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light {
     .navbar>.container {
         display: block;
     }
+
+    .header-contact-div {
+        border: 1px solid transparent;
+        border-radius: 3px;
+        text-align: center;
+    }
+
+    .nav-item.show.dropdown {
+        text-align: center;
+    }
+
+    .navbar-nav .dropdown-menu {
+        position: static;
+        text-align: center;
+    }
+
+    button.navbar-toggler {
+        float: right;
+    }
 }
 
 @media(min-width: 901px) and (max-width: 1367px) {

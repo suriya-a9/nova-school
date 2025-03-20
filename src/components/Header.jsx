@@ -32,60 +32,16 @@ function Header() {
                             <Nav.Link href="/nova-school/">Home</Nav.Link>
                             <Nav.Link href="/nova-school/faculty/">About us</Nav.Link>
                             <NavDropdown title="Academics" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.1">B.Ed</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">
-                                    Another action
+                                    B.EL.Ed
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">
-                                    Separated link
-                                </NavDropdown.Item>
+                                <NavDropdown.Item href="/nova-school/cbse">CBSE</NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title="Faculty" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">
-                                    Another action
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">
-                                    Separated link
-                                </NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown title="Facilities" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">
-                                    Another action
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">
-                                    Separated link
-                                </NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown title="Activities" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">
-                                    Another action
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">
-                                    Separated link
-                                </NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown title="Gallery" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">
-                                    Another action
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">
-                                    Separated link
-                                </NavDropdown.Item>
-                            </NavDropdown>
+                            <Nav.Link href="/nova-school/faculty/">Faculty</Nav.Link>
+                            <Nav.Link href="/nova-school/faculty/">Facilities</Nav.Link>
+                            <Nav.Link href="/nova-school/faculty/">Activities</Nav.Link>
+                            <Nav.Link href="/nova-school/faculty/">Gallery</Nav.Link>
                         </Nav>
                         <div className='header-contact-div'>
                             <button className='header-contact-button'>Contact Us</button>

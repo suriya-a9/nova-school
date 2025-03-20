@@ -98,3 +98,78 @@ button.tab.active {
     cursor: pointer;
     transition: 0.3s;
 }
+
+/* Media Queries */
+
+@media(max-width: 600px) {
+    .tabs {
+        display: flex;
+        justify-content: flex-start;
+        overflow-x: auto;
+        white-space: nowrap;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        margin-top: 20px;
+    }
+
+    .tabs::-webkit-scrollbar {
+        display: block;
+    }
+
+    .tab {
+        flex-shrink: 0;
+        padding: 8px 16px;
+        font-size: 14px;
+        min-width: fit-content;
+    }
+
+    .tab-image {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    .tab-content p {
+        color: black;
+        margin-bottom: 0px;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    p.sub_content {
+        font-size: 14px !important;
+        text-align: left;
+        margin-left: 0%;
+        font-weight: 400 !important;
+        margin-bottom: 10px !important;
+        text-align: center;
+    }
+
+    .tab-content .content a {
+        color: hsl(352.8deg 51.02% 38.43%);
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 0;
+    }
+
+    .nova-tab {
+        width: 100%;
+        margin: 0px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 0px;
+        background: #fff;
+    }
+
+    .nova-institution {
+        text-align: center;
+        padding: 0px;
+    }
+
+    button.tab.active {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+}
