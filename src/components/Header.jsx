@@ -25,12 +25,12 @@ function Header() {
             </section>
             <Navbar expand="lg" className="bg-body-tertiary">
                 <Container>
-                    <Navbar.Brand href="#home"><img src={"/nova-school/assets/nova_school_logo.webp"} alt='logo' /></Navbar.Brand>
+                    <Navbar.Brand href="/nova-school/"><img src={"/nova-school/assets/nova_school_logo.webp"} alt='logo' /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="/nova-school/faculty">About us</Nav.Link>
+                            <Nav.Link href="/nova-school/">Home</Nav.Link>
+                            <Nav.Link href="/nova-school/faculty/">About us</Nav.Link>
                             <NavDropdown title="Academics" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">
