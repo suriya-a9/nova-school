@@ -49,3 +49,36 @@ nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light {
 .me-auto.navbar-nav a {
     color: black;
 }
+
+/* Media Queries */
+
+@media(max-width: 600px) {
+    .header-strip-div svg {
+        margin-right: 8px;
+        font-size: 15px;
+    }
+
+    .header-strip {
+        display: block;
+    }
+
+    a.navbar-brand img {
+        width: 50%;
+    }
+
+    button.navbar-toggler.collapsed {
+        float: right;
+    }
+
+    .navbar>.container {
+        display: block;
+    }
+}
+
+@media(min-width: 901px) and (max-width: 1367px) {
+    .me-auto.navbar-nav {
+        display: flex;
+        align-items: center;
+        column-gap: 0px;
+    }
+}

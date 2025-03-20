@@ -51,12 +51,18 @@ const NewsEvents = () => {
             <Swiper
                 modules={[Navigation, Pagination, Autoplay, FreeMode]}
                 spaceBetween={20}
-                slidesPerView={4}
+                slidesPerView={1}
                 navigation={true}
                 loop={true}
                 // autoplay={{ delay: 2500, disableOnInteraction: false }}
                 freeMode={true}
                 grabCursor={true}
+                breakpoints={{
+                    640: { slidesPerView: 1, spaceBetween: 20 },
+                    1024: { slidesPerView: 3, spaceBetween: 30 },
+                    1280: { slidesPerView: 3, spaceBetween: 40 },
+                    1500: { slidesPerView: 4, spaceBetween: 40 }  
+                }}
             >
                 {data.map((item, index) => (
                     <SwiperSlide key={index}>
@@ -73,7 +79,7 @@ const NewsEvents = () => {
                     </SwiperSlide>
                 ))}
             </Swiper>
-            <button className='header-contact-button' style={{ margin: '0px 44%' }}>Join Now </button>
+            <button className='facility-contact-button' style={{ margin: '0px 44%' }}>Join Now </button>
         </div>
     );
 };

@@ -96,3 +96,27 @@
 section.home-about {
     margin: 40px 0px;
 }
+
+/* Media Queries */
+
+@media(max-width: 600px) {
+    .vision {
+        display: flex;
+        justify-content: center;
+        background-color: hsl(216.15deg 79.59% 19.22%);
+        padding: 14px 14px;
+        color: white;
+        background: linear-gradient(to right, #002047, #3E52AF);
+        color: white;
+        -webkit-text-fill-color: white;
+        border: none;
+        padding: 35px 24px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+}

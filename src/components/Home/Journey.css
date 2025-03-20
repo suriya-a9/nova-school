@@ -88,3 +88,14 @@ section.journey-section .col-md-8 .row:not(:last-child)::after {
             transparent 10px,
             transparent 20px);
 }
+
+/* Media Queries */
+@media(max-width: 600px) {
+    section.journey-section .col-md-8 .row:not(:last-child)::after {
+        display: none;
+    }
+
+    section.journey-section .col-md-6:not(:nth-child(2n))::after {
+        display: none;
+    }
+}
