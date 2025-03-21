@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-md-3">
                         <div className="footer-1">
-                            <img src={'assets/Footer.webp'} alt="img" />
+                            <img src={'/nova-school/assets/Footer.webp'} alt="img" />
                             <div className="footer-1-contact">
                                 <h4>Talk with us</h4>
                                 <div className="footer-1-contact-div">

@@ -39,7 +39,7 @@ function Header() {
                                 <NavDropdown.Item href="/nova-school/cbse">CBSE</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="/nova-school/faculty/">Faculty</Nav.Link>
-                            <Nav.Link href="/nova-school/faculty/">Facilities</Nav.Link>
+                            <Nav.Link href="/nova-school/facilities/">Facilities</Nav.Link>
                             <Nav.Link href="/nova-school/faculty/">Activities</Nav.Link>
                             <Nav.Link href="/nova-school/faculty/">Gallery</Nav.Link>
                         </Nav>

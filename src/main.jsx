@@ -8,6 +8,7 @@ import App from './App.jsx'
 import Home from './components/Home/Home.jsx'
 import Faculty from './components/Faculty/Faculty.jsx';
 import Cbse from './components/CBSE/Cbse.jsx';
+import Facilities from './components/Facilities/Facilities.jsx';
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/' element={<Home />} />
       <Route path='/faculty' element={<Faculty />} />
       <Route path='/cbse' element={<Cbse />} />
+      <Route path='/facilities' element={<Facilities />} />
     </Routes>
   </BrowserRouter>
 )

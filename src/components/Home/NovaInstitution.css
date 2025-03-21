@@ -53,6 +53,8 @@
     max-width: 65%;
     border-radius: 10px;
     margin-bottom: 15px;
+    height: 500px;
+    object-fit: cover;
 }
 
 p.sub_content {
@@ -128,6 +130,8 @@ button.tab.active {
         max-width: 100%;
         border-radius: 10px;
         margin-bottom: 15px;
+        height: auto;
+        object-fit: contain;
     }
 
     .tab-content p {
