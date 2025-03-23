@@ -9,6 +9,7 @@ import Home from './components/Home/Home.jsx'
 import Faculty from './components/Faculty/Faculty.jsx';
 import Cbse from './components/CBSE/Cbse.jsx';
 import Facilities from './components/Facilities/Facilities.jsx';
+import AboutUs from './components/AboutUs/AboutUs.jsx';
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/faculty' element={<Faculty />} />
       <Route path='/cbse' element={<Cbse />} />
       <Route path='/facilities' element={<Facilities />} />
+      <Route path='/about-us' element={<AboutUs />} />
     </Routes>
   </BrowserRouter>
 )

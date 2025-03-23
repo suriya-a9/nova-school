@@ -30,7 +30,7 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="/nova-school/">Home</Nav.Link>
-                            <Nav.Link href="/nova-school/faculty/">About us</Nav.Link>
+                            <Nav.Link href="/nova-school/about-us/">About us</Nav.Link>
                             <NavDropdown title="Academics" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">B.Ed</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">
