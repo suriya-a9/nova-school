@@ -19,10 +19,10 @@ createRoot(document.getElementById('root')).render(
     <Routes>
       <Route path='/app' element={<App />} />
       <Route path='/' element={<Home />} />
-      <Route path='/nova-school/faculty' element={<Faculty />} />
-      <Route path='/nova-school/cbse' element={<Cbse />} />
-      <Route path='/nova-school/facilities' element={<Facilities />} />
-      <Route path='/nova-school/about-us' element={<AboutUs />} />
+      <Route path='/faculty' element={<Faculty />} />
+      <Route path='/cbse' element={<Cbse />} />
+      <Route path='/facilities' element={<Facilities />} />
+      <Route path='/about-us' element={<AboutUs />} />
     </Routes>
   </BrowserRouter>
 )

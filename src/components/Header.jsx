@@ -30,7 +30,7 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="/nova-school/">Home</Nav.Link>
-                            <Nav.Link href="https://suriya-a9.github.io/nova-school/about-us/">About us</Nav.Link>
+                            <Nav.Link href="/nova-school/about-us/">About us</Nav.Link>
                             <NavDropdown title="Academics" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">B.Ed</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">
@@ -39,7 +39,7 @@ function Header() {
                                 <NavDropdown.Item href="/nova-school/cbse">CBSE</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="/nova-school/faculty/">Faculty</Nav.Link>
-                            <Nav.Link href="/nova-school/facilities/">Facilities</Nav.Link>
+                            <Nav.Link href="/nova-school/facilities">Facilities</Nav.Link>
                             <Nav.Link href="/nova-school/faculty/">Activities</Nav.Link>
                             <Nav.Link href="/nova-school/faculty/">Gallery</Nav.Link>
                         </Nav>
